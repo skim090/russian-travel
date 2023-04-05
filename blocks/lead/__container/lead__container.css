@@ -1,0 +1,7 @@
+.lead__container{
+  width: calc(100% - 148px*2);
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}

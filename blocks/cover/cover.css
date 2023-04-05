@@ -1,0 +1,5 @@
+.cover{
+  margin: 0 auto 0 auto;
+  width: calc(100% - 48px*2);
+  justify-content: center;
+}

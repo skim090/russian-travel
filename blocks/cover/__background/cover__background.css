@@ -1,0 +1,13 @@
+.cover__background{
+  display: grid;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.cover__background:hover{
+  opacity: .3;
+  transition: opacity .2s ease-in-out;
+}

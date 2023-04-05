@@ -1,0 +1,5 @@
+.lead__image{
+  width: calc(100% - 23px*2);
+  min-height: 75%;
+  margin-top: 85px;
+}

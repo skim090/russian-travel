@@ -1,0 +1,9 @@
+.cover__overlay{
+  color: #fff;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto 560px auto;
+  grid-template-rows: repeat(4, max-content);
+  justify-items: center;
+  width: 100%;
+}
