@@ -1,3 +1,6 @@
+/* Шрифты */
+@import url(../vendor/fonts/fonts.css);
+
 /* Блок PAGE */
 @import url(../blocks/page/page.css);
 
