@@ -8,3 +8,28 @@
   justify-items: center;
   margin: 92px auto;
 }
+
+@media screen and (max-width: 1024px){
+  .photo-grid{
+    grid-template-columns: repeat(3, minmax(calc((100% - 48px*2)/3), 1fr));
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .photo-grid{
+    width: calc(100% - 24px*2);
+    grid-template-columns: repeat(2, minmax(calc((100% - 24px*2)/2), 1fr));
+    gap: 16px;
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .photo-grid{
+    width: calc(100% - 16px*2);
+    grid-template-columns: minmax(calc(100% - 24px*2), 1fr);
+    gap: 12px;
+    margin: 64px auto;
+  }
+}

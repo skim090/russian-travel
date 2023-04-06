@@ -7,3 +7,9 @@
   justify-items: center;
   width: 100%;
 }
+
+@media screen and (max-width: 425px){
+  .cover__overlay{
+    grid-template-columns: auto 288px auto;
+  }
+}

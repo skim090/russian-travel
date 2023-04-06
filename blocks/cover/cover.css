@@ -3,3 +3,9 @@
   width: calc(100% - 48px*2);
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px){
+  .cover{
+    width: 100%;
+  }
+}

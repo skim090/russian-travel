@@ -5,3 +5,11 @@
   flex-direction: column;
   align-content: center;
 }
+
+@media screen and (max-width: 1024px){
+.lead__container{width: calc(100% - 48px*2);}
+}
+
+@media screen and (max-width: 768px){
+  .lead__container{width: 100%;}
+}

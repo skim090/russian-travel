@@ -6,3 +6,10 @@
   height: fit-content;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 425px){
+  .footer{
+    margin-left: 16px;
+    flex-direction: column;
+  }
+}

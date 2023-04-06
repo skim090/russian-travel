@@ -2,3 +2,9 @@
   display: flex;
   flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 425px){
+  .footer__links{
+    flex-direction: column;
+  }
+}
