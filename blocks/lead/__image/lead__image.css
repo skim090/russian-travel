@@ -1,5 +1,6 @@
 .lead__image{
+  position: absolute;
   width: calc(100% - 23px*2);
-  min-height: 75%;
-  margin-top: 85px;
+  margin-top: calc(29px + 61 * (100vw - 400px) / 880);
+  z-index: 2;
 }

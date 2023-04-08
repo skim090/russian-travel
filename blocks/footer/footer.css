@@ -1,10 +1,22 @@
 .footer{
   display: flex;
+  width: calc(100% - 148px*2);
   justify-content: space-between;
-  width: calc(100% - 48px*2);
   margin: 92px auto 0;
   height: fit-content;
   padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer{
+    width: calc(100% - 24*2);
+  }
 }
 
 @media screen and (max-width: 425px){

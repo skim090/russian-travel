@@ -1,9 +1,12 @@
 .lead__container{
   width: calc(100% - 148px*2);
+  height: calc(200px + 415 * (100vw - 400px) / 880);
   flex-wrap: wrap;
   display: flex;
+  position: relative;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px){
