@@ -1,6 +1,14 @@
 .lead__image{
-  position: absolute;
-  width: calc(100% - 23px*2);
-  margin-top: calc(29px + 61 * (100vw - 400px) / 880);
-  z-index: 2;
+  width: calc(100% - 148px*2);
+  height: calc(200px + 415 * (100vw - 400px) / 880);
+  margin: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px){
+  .lead__image{width: calc(100% - 48px*2);}
+}
+
+@media screen and (max-width: 768px){
+  .lead__image{width: 100%;}
 }

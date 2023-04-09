@@ -3,12 +3,17 @@
   font-style: normal;
   text-align: center;
   line-height: 104%;
-  font-size: calc(40px + 56 * (100vw - 400px) / 880);
+  font-size: 96px;
   font-weight: 900;
   margin: 0 auto;
   height: fit-content;
 }
 
+@media screen and (max-width: 768px){
+  .lead__title{
+    font-size: clamp(40px, 12vw, 96px);
+  }
+}
 @media screen and (max-width: 425px){
   .lead__title{
     max-width: 288px;

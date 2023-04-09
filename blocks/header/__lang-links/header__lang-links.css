@@ -1,14 +1,7 @@
 .header__lang-links{
   list-style-type: none;
   display: flex;
-  margin: 16px 0 6px 0;
   padding: 0;
-  align-content: flex-end;
   flex-wrap: nowrap;
-}
-
-@media screen and (max-width: 425px){
-  .header__lang-links{
-    margin-top: 14px;
-  }
+  align-items: flex-end;
 }

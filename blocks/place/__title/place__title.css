@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px){
   .place__title{
-    font-size: 42px;
+    font-size: clamp(32px, 7vw, 42px);
     line-height: 110%;
   }
 }

@@ -3,6 +3,5 @@
   flex-direction: column;
   margin: 48px auto 0 auto;
   align-content: flex-start;
-  overflow: hidden;
   height: fit-content;
 }
