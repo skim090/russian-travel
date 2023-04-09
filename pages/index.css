@@ -33,6 +33,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__number/intro__number.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-marker/intro__list-marker.css);
 
 /* Блок PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
