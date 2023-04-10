@@ -2,7 +2,8 @@
   color: #fff;
   background-image: url("../../../images/__background.jpg");
   background-size: cover;
-  height: calc(200px + 540 * (100vw - 400px) / 880);
+  background-position: center;
+  min-height: calc(200px + 540 * (100vw - 400px) / 880);
   background-repeat: no-repeat;
   text-decoration: none;
   display: grid;
