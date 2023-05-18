@@ -1,7 +1,7 @@
 .lead{
   width: 100%;
   flex-direction: column;
-  margin: 48px auto 0 auto;
+  margin: 56px auto 0 auto;
   align-content: flex-start;
   height: fit-content;
 }
