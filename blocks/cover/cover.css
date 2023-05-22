@@ -1,5 +1,34 @@
 .cover{
-  width: 100%;
+  max-width: 1184px;
+  width: calc(100% - 96px);
   justify-content: center;
   position: relative;
+  display: flex;
+  margin: auto;
+}
+
+.cover::before{
+  content: '';
+  z-index: 2;
+  display: block;
+  max-width: 1184px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(47, 44, 47, .3);
+  transition: background-color .3s ease-in-out;
+}
+
+.cover:hover::before{
+  background-color: rgba(47, 44, 47, .8);
+}
+@media screen and (max-width: 1024px){
+  .cover{
+    width: 100%;
+  }
 }

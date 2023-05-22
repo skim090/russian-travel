@@ -1,8 +1,7 @@
 .lead__image{
-  width: calc(100% - 148px*2);
-  height: calc(200px + 415 * (100vw - 400px) / 880);
   margin: auto;
   display: flex;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px){
