@@ -4,8 +4,8 @@
   margin: 0 18px 0 0;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(8px + 8 * (100vw - 400px) / 880);
-  line-height: 112%;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .footer__link:last-of-type{
@@ -16,6 +16,6 @@
   .footer__link{
     margin-bottom: 32px;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 24px;
   }
 }

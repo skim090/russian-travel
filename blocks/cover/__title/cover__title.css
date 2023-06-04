@@ -1,7 +1,7 @@
 .cover__title{
   color: rgba(255, 255, 255, 1);
   display: grid;
-  margin: 0 0 32px 0;
+  margin: 0 auto 32px auto;
   width: calc(288px + 272 * (100vw - 400px) / 880);
   grid-column: 2;
   grid-row: 2;
@@ -19,5 +19,6 @@
     max-width: 240px;
     font-size: 32px;
     line-height: 109%;
+    margin-bottom: 16px;
   }
 }
