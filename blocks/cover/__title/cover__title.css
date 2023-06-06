@@ -1,17 +1,25 @@
 .cover__title{
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
   display: grid;
   margin: 0 auto 32px auto;
-  width: calc(288px + 272 * (100vw - 400px) / 880);
+  width: 560px;
   grid-column: 2;
   grid-row: 2;
   opacity: 1;
   z-index: 2;
   font-style: normal;
   font-weight: 900;
-  font-size: calc(32px + 40 * (100vw - 400px) / 880);
-  line-height: 106%;
+  font-size: 72px;
+  line-height: 76px;
   text-align: center;
+}
+
+@media screen and (max-width: 690px){
+  .cover__title{
+    font-size: 64px;
+    width: 100%;
+    line-height: 110%;
+  }
 }
 
 @media screen and (max-width: 425px){

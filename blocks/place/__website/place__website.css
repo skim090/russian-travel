@@ -9,5 +9,8 @@
   .place__website{
     margin: 0 0 32px;
     grid-row: 2;
+    width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
