@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 500px){
   .place__paragraphs{
-    width: calc(100% - 16px*2);
     grid-column: 1;
     width: calc(100% - 32px);
     margin-left: auto;
