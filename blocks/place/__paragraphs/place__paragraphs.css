@@ -3,7 +3,7 @@
   grid-column: 2;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
   .place__paragraphs{
     grid-column: 1;
     width: calc(100% - 32px);
