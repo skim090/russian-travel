@@ -8,14 +8,14 @@
   max-width: 460px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
   .place__title{
     font-size: clamp(32px, 7vw, 42px);
     line-height: 110%;
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 690px){
   .place__title{
     margin: 0 0 32px 0;
     font-size: 32px;
